@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="48dp"
+        android:src="@drawable/nav" />
+
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="       SELL"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="36sp"></TextView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="483dp"
+                android:layout_height="330dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="282dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="240dp"
+                    android:layout_marginRight="240dp"
+                    android:layout_marginBottom="48dp"
+                    app:srcCompat="@drawable/books" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/books"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="266dp"
+                    android:layout_marginLeft="266dp"
+                    android:layout_marginTop="58dp"
+                    android:text="   BOOKS"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="79dp"
+                    android:layout_marginRight="79dp"
+                    android:text="Shop for the Best"
+                    android:textSize="18sp"></TextView>
+
+                <Button
+                    android:id="@+id/books"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginBottom="83dp"
+                    android:background="@layout/rounded"
+                    android:text="SELL"
+                    android:textSize="24sp" />
+
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="123dp"
+                    android:layout_marginRight="123dp"
+                    android:layout_marginBottom="135dp"
+                    app:srcCompat="@drawable/arrow" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="483dp"
+                android:layout_height="330dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="123dp"
+                    android:layout_marginRight="123dp"
+                    android:layout_marginBottom="135dp"
+                    app:srcCompat="@drawable/arrow" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="282dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/cars" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/car"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="254dp"
+                    android:layout_marginLeft="254dp"
+                    android:layout_marginTop="54dp"
+                    android:text="     CARS"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="79dp"
+                    android:layout_marginRight="79dp"
+                    android:text="Shop for the Best"
+                    android:textSize="18sp"></TextView>
+
+                <Button
+                    android:id="@+id/car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginBottom="83dp"
+                    android:background="@layout/rounded"
+                    android:text="SELL"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="483dp"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="123dp"
+                    android:layout_marginRight="123dp"
+                    android:layout_marginBottom="135dp"
+                    app:srcCompat="@drawable/arrow" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="282dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/furniture" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="254dp"
+                    android:layout_marginLeft="254dp"
+                    android:layout_marginTop="54dp"
+                    android:text=" FURNITURES"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="77dp"
+                    android:layout_marginRight="77dp"
+                    android:text="Shop for the Best"
+                    android:textSize="18sp"></TextView>
+
+                <Button
+                    android:id="@+id/furnitures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginBottom="83dp"
+                    android:text="SELL"
+                    android:background="@layout/rounded"
+                android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="483dp"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="123dp"
+                    android:layout_marginRight="123dp"
+                    android:layout_marginBottom="135dp"
+                    app:srcCompat="@drawable/arrow" />
+
+                <ImageView
+
+                    android:layout_width="240dp"
+                    android:layout_height="282dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/phones" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="254dp"
+                    android:layout_marginLeft="254dp"
+                    android:layout_marginTop="54dp"
+                    android:text="    PHONES"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="79dp"
+                    android:layout_marginRight="79dp"
+                    android:text="Shop for the Best"
+                    android:textSize="18sp"></TextView>
+
+                <Button
+                    android:id="@+id/phones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="116dp"
+                    android:layout_marginRight="116dp"
+                    android:layout_marginBottom="83dp"
+                    android:text="SELL"
+                    android:background="@layout/rounded"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

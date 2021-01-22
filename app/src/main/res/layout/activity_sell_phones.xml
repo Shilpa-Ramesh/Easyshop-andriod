@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell_phones">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="GADGETS"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/Product_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/product"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/ProductName"
+                android:textSize="18dp">
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/price"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/Price"
+                android:inputType="numberDecimal"
+                android:textSize="18dp">
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/brandname"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/company_name"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/BrandName"
+                android:textSize="18dp">
+            </EditText>
+
+            <TextView
+                android:id="@+id/Description_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/description"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="267dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/Description"
+                android:inputType="textMultiLine"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="*to add pics click on camera icon"
+                android:textColor="#000000"
+                android:textSize="18sp"></TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" />
+
+            <Button
+                android:id="@+id/button_choose_image"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@layout/rounded"
+                android:text="choose Image"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/button_choose_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@+id/Description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="-4dp" />
+
+            <Button
+                android:id="@+id/button_upload"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="#000000"
+                android:fontFamily="@font/aclonica"
+                android:text="Upload"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

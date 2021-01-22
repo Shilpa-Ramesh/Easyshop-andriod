@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Price_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell_book">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="935dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="BOOKS"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="36sp" />
+
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imageView2"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:src="@drawable/book1" />-->
+
+            <TextView
+                android:id="@+id/Product_tag"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/bookname"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:hint="@string/book_name"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/price"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/Price"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/Description_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/description"
+                android:textColor="#000000"
+                android:textSize="24sp"></TextView>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="260dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="66dp"
+                android:hint="@string/Book_Description"
+                android:inputType="textMultiLine"
+                android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+                android:textSize="18dp"></EditText>
+
+            <TextView
+                android:id="@+id/Image_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="*To add pics click on the button"
+                android:textColor="#000000"
+                android:textSize="18sp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" />
+
+
+            <Button
+                android:id="@+id/button_choose_image"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@layout/rounded"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/choose"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/button_choose_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@+id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="-4dp" />
+
+            <Button
+                android:id="@+id/button_upload"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="#000000"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/upload"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

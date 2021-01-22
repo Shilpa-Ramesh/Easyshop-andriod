@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/explore"
+        android:icon="@drawable/ic_grid_on_black_24dp"
+        android:title="Explore"
+        android:iconTint="#FFFFFF"
+        />
+    <item
+        android:id="@+id/sell"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:title="Sell"
+        android:iconTint="#FFFFFF"
+
+        />
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_filter_none_black_24dp"
+        android:title="Feedback"
+        android:iconTint="#FFFFFF"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:iconTint="#FFFFFF"
+        android:title="Profile" />
+</menu>

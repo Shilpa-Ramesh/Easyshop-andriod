@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finaleasyshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".phone_buy"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".furniture_buy"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".furniture_image"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Furniture_Upload"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".phone_image"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Phone_Upload"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".car_buy"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".buy_cars"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".buy_furnitures"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".buy_phones"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".buy_book"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".car_image"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".book_buy"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".book_image"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".sell_furniture"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".sell_cars"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".sell_phones"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".sell_book"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Feedback"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".About"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".profile"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".sell"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".home"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ResetPassActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".drawer" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

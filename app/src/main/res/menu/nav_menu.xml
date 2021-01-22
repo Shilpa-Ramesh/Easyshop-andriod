@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:fontFamily="@font/aclonica"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:title="@string/my_profile"
+            android:fontFamily="@font/aclonica"
+            android:icon="@drawable/ic_profile"/>
+
+        <item
+            android:id="@+id/nav_sell"
+            android:title="@string/sell"
+            android:fontFamily="@font/aclonica"
+            android:icon="@drawable/ic_sell"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:fontFamily="@font/aclonica"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="@string/logout" />
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:fontFamily="@font/aclonica"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="ABOUT" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:fontFamily="@font/aclonica"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="FEEDBACK" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
